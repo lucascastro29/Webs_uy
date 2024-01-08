@@ -1,11 +1,10 @@
-import styles from "@/app/ui/global.css"
+import NavBar from "@/app/ui/layout/NavBar"
+
 export default function Page(){
 
 
     return(
-    <div  className={styles.NavBar}>
+   <NavBar/>
 
-
-    </div>
     )
 }
