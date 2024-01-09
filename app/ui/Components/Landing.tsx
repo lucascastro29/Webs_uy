@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function Page(){
 //aca iria la seccion inicial que apareceria al principio de la pagina y tendria que tener animaciones y cosas bonitas
-    return (
-<section className="w-full py-24 md:py-32 lg:py-48 bg-gray-100 dark:bg-gray-800">
+    return ( 
+<section className="w-full py-24 md:py-32 lg:py-48 bg-gray-100 dark:bg-gray-800"  style={{backgroundColor:"#001220"}}>
           <div className="px-4 md:px-6">
-            <div className="flex flex-col items-center space-y-4 text-center">
+            <div className="flex flex-col items-center space-y-4 text-center ">
               <div className="space-y-2">
-                <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-gray-900 dark:text-gray-50">
+                <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white ">
                   Building Your Digital Presence
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">

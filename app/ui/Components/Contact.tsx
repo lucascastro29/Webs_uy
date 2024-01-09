@@ -5,8 +5,8 @@ export default function Page(){
 //Y mejorar el h2 y otras cosas 
 
     return(
-        <div className="mt-8 mb-8">
-            <h2 className="grid place-items-center text-2xl font-bold mt-8 mb-8"> Contact us to make your project real</h2>
+        <div className="mt-8 mb-8" id="Contact">
+            <h2 className="grid place-items-center text-3xl md:text-4xl lg:text-5xl font-bold mt-8 mb-8"> Make your project real!</h2>
             <Form/>
         </div>
 

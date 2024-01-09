@@ -16,30 +16,30 @@ export default function Page() {
               </Link>
 
               </div>
-              <div ></div>
-              <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 ">
-                  <div >
+              <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4 ">
+                  <div  className="h-full grid content-end">
                       <ul className="text-gray-500 dark:text-gray-400 font-medium ">
                           
-                          <li>
-                              <Link href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</Link>
-                          </li>
+                              <Link href="#About" className=" hover:underline">About</Link>
                       </ul>
                   </div>
-                  <div>
+                  
+                  <div  className="h-full grid content-end">
                       <ul className="text-gray-500 dark:text-gray-400 font-medium">
                           
-                          <li>
-                              <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</Link>
-                          </li>
+                              <Link href="#Services" className="hover:underline">Services</Link>
                       </ul>
                   </div>
-                  <div>
+                  <div  className="h-full grid content-end">
+                      <ul className="text-gray-500 dark:text-gray-400 font-medium ">
+                          
+                              <Link href="#Portfolio" className=" hover:underline">Portfolio</Link>
+                      </ul>
+                  </div>
+                  <div  className="h-full grid content-end"> 
                       <ul className="text-gray-500 dark:text-gray-400 font-medium">
                           
-                          <li>
-                              <Link href="#" className="hover:underline">Terms &amp; Conditions</Link>
-                          </li>
+                              <Link href="#Contact" className="hover:underline">Contact</Link>
                       </ul>
                   </div>
               </div>

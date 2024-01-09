@@ -6,7 +6,7 @@ export default function Page(){
     //y usar un slider para los proyectos en ves de estos tres elementos 
     return(
 
-        <section className="w-full py-12 md:py-24 lg:py-32" id="portfolio">
+        <section className="w-full py-12 md:py-24 lg:py-32" id="Portfolio">
         <div className=" px-4 md:px-6 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter">Our Portfolio</h2>
           <p className="mt-4 text-lg md:text-xl lg:text-2xl text-gray-500 dark:text-gray-400">

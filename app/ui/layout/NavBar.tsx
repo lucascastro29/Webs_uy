@@ -10,7 +10,7 @@ import type { CollapseOptions, CollapseInterface } from 'flowbite';
 import type { InstanceOptions } from 'flowbite';
 import { useEffect } from "react";
 
-const targetEl: HTMLElement = document.getElementById('navbar-cta');
+const targetEl:HTMLElement = document.getElementById('navbar-cta');
 
 // optionally set a trigger element (eg. a button, hamburger icon)
 const triggerEl: HTMLElement = document.getElementById('button_trigger');
@@ -49,13 +49,14 @@ const collapse: CollapseInterface = new Collapse(
 
 
 //--->
-// show the target element
+//para mi hay que ponerle una animacion al header para cuando inicie a scrollear cambie de color o algo, porque asi es muy estatico
+
 export default function Page(){
 
     return(
-        <nav className="bg-white border-gray-200 dark:bg-gray-900" style={{backgroundColor:"#001220"}}> 
-          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <Link href={"/home"} id="Home">
+        <nav className="bg-white border-gray-200 dark:bg-gray-900 fixed w-full" style={{backgroundColor:"#001220"}}> 
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" >
+          <Link href={"#Home"} id="Home">
                 <Image src={icon} width={110} height={110} alt="icon_image"/>
               </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
