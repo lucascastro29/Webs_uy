@@ -3,11 +3,6 @@ import Link from "next/link";
 import icon from "@/public/Icon.jpg";
 import Image from "next/image";
 
-//--->> Esto de aca se encarga de hacer que funcione el boton hamburguesa, selecciona el
-//elemento que es el disparador y el objeto
-// import { Collapse } from "flowbite";
-// import type { CollapseOptions, CollapseInterface } from "flowbite";
-// import type { InstanceOptions } from "flowbite";
 import { useEffect, useState } from "react";
 
 //--->
@@ -18,12 +13,13 @@ export default function Page() {
   const [showBurgerButtton, setShowBurgerButton] = useState(false);
 
   return (
-    <nav
+    <nav 
       className="bg-white border-gray-200 dark:bg-gray-900 fixed w-full"
-      style={{ backgroundColor: "#001220" }}
+      style={{ backgroundColor: "#001220" }} 
+      id="Home"
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link href={"#Home"} id="Home">
+        <Link href={"#Home"} >
           <Image src={icon} width={110} height={110} alt="icon_image" />
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
