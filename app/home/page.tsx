@@ -8,10 +8,12 @@ export default async function Page(){
     return(
 
         <>
-        <Landing/>
+            
+            <Landing/>
         <Services/>    
         <Portfolio/>    
         <Contact/>
+        
         </>
     )
 }

@@ -10,11 +10,13 @@ import { useEffect, useState } from "react";
 
 export default function Page() {
   //cambio de estado para que se abra el boton hamburguesa
-  const [showBurgerButtton, setShowBurgerButton] = useState(false);
 
+  const [showBurgerButtton, setShowBurgerButton] = useState(false);
+  const [scrollaction,setscrollaction]=useState("")
+console.log(document.body.scrollHeight)
   return (
-    <nav 
-      className="bg-white border-gray-200 dark:bg-gray-900 fixed w-full"
+    <nav    
+      className={`bg-white border-gray-200 dark:bg-gray-900 fixed w-full ${()=>{ if(document.body.scrollTop==0){return"hidden"}else{return "hidden"}}}`}
       style={{ backgroundColor: "#001220" }} 
       id="Home"
     >
