@@ -1,0 +1,36 @@
+
+.circles{
+    background-color: white;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: animate  infinite;  
+  animation-duration: 2s ;
+  transition: all ease-in-out;
+  position: fixed;
+  top: 200px;
+  right: 300px;
+  bottom: 0px;
+  left: 0px;
+  margin: 2px;
+  }
+  @keyframes animate{
+    
+    0%{
+        width: 0px;
+        height: 0px;
+     
+    }
+      50%{
+        width: 50px;
+        height: 50px;
+       }
+
+    100%{
+        
+        width: 0px;
+        height: 0px;
+     
+    }
+  }

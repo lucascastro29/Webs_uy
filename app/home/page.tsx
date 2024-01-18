@@ -9,7 +9,7 @@ export default async function Page(){
 
         <>
             
-            <Landing/>
+        <Landing/>
         <Services/>    
         <Portfolio/>    
         <Contact/>
