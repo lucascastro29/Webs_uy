@@ -16,13 +16,14 @@ export default function Page() {
   return (
     <nav
       className={`bg-white border-gray-200 dark:bg-gray-900 w-full `}
-      style={{ backgroundColor: "#001220" }}
+      style={{ backgroundColor: "#ffffff00", position:"absolute",marginTop:"40px" }}
       id="Home"
     >
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link href={"#Home"}>
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
+        {/*
+          <Link href={"#Home"}>
           <Image src={icon} width={90} height={90} alt="icon_image" />
-        </Link>
+        </Link> */}
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           {/*
          <button
@@ -65,7 +66,7 @@ export default function Page() {
         >
           <ul
             className="flex flex-col font-medium p-4 md:p-0 mt-4 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-            style={{ backgroundColor: "#001220" }}
+            style={{ backgroundColor: "#ffffff00" }}
           >
             <li>
               <Link

@@ -3,7 +3,7 @@ export default function Page(){
 
     //Serccion de servicios a mejorar, pense en agregarle una card a website design, una a development y otra a  maintenance o algo mas y un loguito a cada una
     return(
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-300 dark:bg-gray-800" id="Services">
+        <section className="w-full py-12 md:py-24 lg:py-32  dark:bg-gray-800" id="Services">
         <div className="px-4 md:px-6 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter">Our Services</h2>
           <p className="mt-4 text-lg md:text-xl lg:text-2xl text-gray-500 dark:text-gray-400">

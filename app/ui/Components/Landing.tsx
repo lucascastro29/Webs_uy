@@ -7,35 +7,38 @@ export default function Page() {
 
   return (
     <section
-      className="w-full py-48 md:py-48 lg:py-48 bg-gray-100 dark:bg-gray-800"
-      
-    >
+      className="w-full flex flex-row py-48 md:py-48 lg:py-48  "
+      style={{
+        height:"1000px",
+        background:
+        " url('homepage.jpeg') no-repeat",
+      backgroundSize: "100%",
+      backgroundPosition: "bottom",
+      }}
+    > 
+    <div className="px-0 md:px-20"></div>
       <div className="px-4 md:px-6">
-        <div className={styles.homeimage}>
-        {/*<div className={styles.circles}></div>*/}
         <div className="flex flex-col items-center space-y-4 text-left ">
-          <div className="space-y-4">
+          <div className="space-y-4 flex-row" style={{marginTop:"80px"}}>
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white ">
-              Building Your Digital Presence
+              Launch your Brand
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
               We create stunning websites and applications that help you stand out in the digital
               world.
             </p>
-          </div>
-          <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row 2xl:flex-row gap-4 ">
             <Link
               className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
               href="#"
             >
               Get Started
             </Link>
-            
           </div>
+           
+            
         </div>
         </div>
 
-      </div>
     </section>
   );
 }
