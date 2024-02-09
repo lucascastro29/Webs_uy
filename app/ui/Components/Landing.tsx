@@ -1,14 +1,17 @@
 import Link from "next/link";
 import styles from "@/app/ui/home.module.css";
+import Image from "next/image";
+import homepage from "@/app/ui/images/homepage.jpg"
 export default function Page() {
   //aca iria la seccion inicial que apareceria al principio de la pagina y tendria que tener animaciones y cosas bonitas
 
   return (
     <section
       className="w-full py-48 md:py-48 lg:py-48 bg-gray-100 dark:bg-gray-800"
-      style={{ backgroundColor: "#001220" }}
+      
     >
       <div className="px-4 md:px-6">
+        <div className={styles.homeimage}>
         {/*<div className={styles.circles}></div>*/}
         <div className="flex flex-col items-center space-y-4 text-left ">
           <div className="space-y-4">
@@ -30,6 +33,8 @@ export default function Page() {
             
           </div>
         </div>
+        </div>
+
       </div>
     </section>
   );
