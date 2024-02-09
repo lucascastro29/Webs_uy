@@ -15,7 +15,7 @@ export default function Page() {
 
   return (
     <nav
-      className={`bg-white border-gray-200 dark:bg-gray-900 fixed w-full `}
+      className={`bg-white border-gray-200 dark:bg-gray-900 w-full `}
       style={{ backgroundColor: "#001220" }}
       id="Home"
     >
