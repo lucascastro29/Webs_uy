@@ -1,3 +1,5 @@
+'use client'
+import { RevealWrapper } from "next-reveal";
 import Link from "next/link";
 
 export default function Page(){
@@ -12,6 +14,8 @@ export default function Page(){
           <p className="mt-4 text-lg md:text-xl lg:text-2xl text-gray-500 dark:text-gray-400">
             Check out some of our recent projects.
           </p>
+          <RevealWrapper delay={500} reset>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             <Link className="group" href="#">
               <img
@@ -56,6 +60,8 @@ export default function Page(){
               <h3 className="mt-2 text-2xl font-bold">Project 3</h3>
             </Link>
           </div>
+      </RevealWrapper>
+
         </div>
       </section>
     )

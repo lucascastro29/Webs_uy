@@ -48,3 +48,14 @@ body {
     transform: translateY(30px);
   }
 }
+
+
+.fadein{
+    
+  opacity:0;
+  transition:opacity 250ms ease-in;
+
+}
+.appear {
+opacity: 1;
+}
