@@ -3,15 +3,12 @@ export default function Page() {
   //En mi opinion hay que agregar una imagen de fondo a la seccion de contacto
   //Y mejorar el h2 y otras cosas
 
-  return (
+  return (<div className="flex justify-left w-full">
     <div
-      className="py-10"
+      className="p-10 m-14 border rounded"
       id="Contact"
       style={{
-        background:
-          "linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('contact-background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        boxShadow:"0px 4px 20px rgba(0, 0, 0, 0.25)"
       }}
     >
       <h2 className="grid place-items-center text-3xl md:text-4xl lg:text-5xl font-bold mt-8 mb-8">
@@ -20,5 +17,23 @@ export default function Page() {
       </h2>
       <Form />
     </div>
+    <div className="flex justify-center w-full">
+      <div
+      className="p-10 m-14 border rounded"
+      id="Contact"
+      style={{
+        boxShadow:"0px 4px 20px rgba(0, 0, 0, 0.25)"
+      }}
+    >
+      <h2 className="grid place-items-center text-3xl md:text-4xl lg:text-5xl font-bold mt-8 mb-8">
+        {" "}
+        Make your project real!
+      </h2>
+      <Form />
+    </div>
+    </div>
+    
+  </div>
+    
   );
 }
