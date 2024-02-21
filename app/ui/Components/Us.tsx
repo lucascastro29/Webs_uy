@@ -23,6 +23,9 @@ export default function Page() {
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white ">
             take your Internet brand on
           </h1>
+          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white ">
+            take your Internet brand on
+          </h1>
        
         </div>
          

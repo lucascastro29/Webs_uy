@@ -29,7 +29,7 @@ export default function Page(){
                 }}
                 width="200"
               />
-              <h3 className="mt-2 text-2xl font-bold">Project 1</h3>
+              <h3 className="mt-2 text-2xl font-bold"> </h3>
             </Link>
             <Link className="group" href="#">
               <img
@@ -43,7 +43,7 @@ export default function Page(){
                 }}
                 width="200"
               />
-              <h3 className="mt-2 text-2xl font-bold">Project 2</h3>
+              <h3 className="mt-2 text-2xl font-bold"> </h3>
             </Link>
             <Link className="group" href="#">
               <img
@@ -57,7 +57,7 @@ export default function Page(){
                 }}
                 width="200"
               />
-              <h3 className="mt-2 text-2xl font-bold">Project 3</h3>
+              <h3 className="mt-2 text-2xl font-bold"> </h3>
             </Link>
           </div>
       </RevealWrapper>
