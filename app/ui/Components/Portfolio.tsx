@@ -10,14 +10,14 @@ export default function Page(){
 
         <section className="w-full py-12 md:py-24 lg:py-32" id="Portfolio">
         <div className=" px-4 md:px-6 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter">Our Portfolio</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter text-[#001220]">Our Portfolio</h2>
           <p className="mt-4 text-lg md:text-xl lg:text-2xl text-gray-500 dark:text-gray-400">
             Check out some of our recent projects.
           </p>
           <RevealWrapper delay={500} reset>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-            <Link className="group" href="#">
+            <Link className="group " href="#">
               <img
                 alt="Project 1"
                 className="w-full h-64 object-cover rounded-lg overflow-hidden shadow-lg transition-transform group-hover:scale-105"

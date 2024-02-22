@@ -17,23 +17,23 @@ export default function Page(){
         <section  className=" w-full py-12 md:py-24 lg:py-32  dark:bg-gray-800" id="Services">
         <div id="cards" className="px-4 md:px-60 text-center ">
 
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter">Our Services</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl text-landingColor font-bold tracking-tighter text-[#001220]">Our Services</h2>
       
-            <p className="mt-4 text-lg md:text-xl lg:text-2xl text-gray-500 dark:text-gray-400">
+            <p className="mt-4 text-lg md:text-xl lg:text-2xl  text-gray-500 dark:text-gray-400">
               We offer a range of services to meet your needs.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             <RevealWrapper  delay={400} origin="bottom"   reset>
 
-                  <div  className="flex flex-col items-center justify-center p-4" >
+                  <div  className="flex flex-col items-center justify-center p-4 transition ease-in-out delay-150  hover:-translate-y-2 duration-500 ..." >
                     
-                  <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                  <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md transition ease-in-out delay-150 duration-500 hover:shadow-xl dark:bg-gray-800 dark:border-gray-700 hover:cursor-pointer">
 
-                  <div className={`flex flex-col items-center pb-10`}>
-                    <Image src={design} alt="design" height={80} width={80} className="w-24 h-24 mb-3 " />
-                      <h3 className="text-2xl font-bold">Website Design</h3>
+                  <div className={`flex flex-col items-center pb-10 `}>
+                    <Image src={design} alt="design" height={80} width={80} className="w-24 h-24 mt-4  mb-3 " />
+                      <h3 className="text-2xl font-bold text-[#001220]">Website Design</h3>
                         
-                          <p className="mt-2 text-gray-500 dark:text-gray-400">              We offer a range of services to meet your needs.
+                          <p className="mt-2 text-gray-500 dark:text-gray-400  ml-4 mr-4">              We offer a range of services to meet your needs.
                           </p>
 
                                           
@@ -45,15 +45,15 @@ export default function Page(){
               </RevealWrapper>
 
               <RevealWrapper  delay={700} origin="bottom"   reset>
-              <div className="flex flex-col items-center justify-center p-4">
+              <div className="flex flex-col items-center justify-center p-4 transition ease-in-out delay-150  hover:-translate-y-2 duration-500 ...">
                 <div className="flex flex-col items-center justify-center p-4">
                 
-                <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md transition ease-in-out delay-150 duration-500 hover:shadow-xl dark:bg-gray-800 dark:border-gray-700 hover:cursor-pointer">
       
                 <div className="flex flex-col items-center pb-10">
-                <Image src={development} alt="design" height={80} width={80} className="w-24 h-24 mb-3 " />
-                    <h3 className="text-2xl font-bold">Development</h3>
-                    <p className="mt-2 text-gray-500 dark:text-gray-400">We develop websites with the latest technologies.</p>
+                <Image src={development} alt="design" height={80} width={80} className="w-24 h-24 mt-4 ml-5 mb-3 " />
+                    <h3 className="text-2xl font-bold text-[#001220]">Development</h3>
+                    <p className="mt-2 text-gray-500 dark:text-gray-400 ml-4 mr-4">We develop websites with the latest technologies.</p>
 
                             
                 </div>
@@ -63,13 +63,13 @@ export default function Page(){
                 </RevealWrapper>
                 <RevealWrapper delay={1000} origin="bottom"   reset>
 
-                <div className="flex flex-col items-center justify-center p-4">
-                  <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="flex flex-col items-center justify-center p-4 transition ease-in-out delay-150  hover:-translate-y-2 duration-500 ..." >
+                  <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md transition ease-in-out delay-150 duration-500 hover:shadow-xl dark:bg-gray-800 dark:border-gray-700 hover:cursor-pointer">
         
                   <div className="flex flex-col items-center pb-10">
-                  <Image src={support} alt="design" height={80} width={80} className="w-24 h-24 mb-3 " />
-                      <h3 className="text-2xl font-bold">Maintenance</h3>
-                      <p className="mt-2 text-gray-500 dark:text-gray-400">We provide ongoing maintenance and support.</p>
+                  <Image src={support} alt="design" height={80} width={80} className="w-24 h-24 mt-4  mb-3" />
+                      <h3 className="text-2xl font-bold text-[#001220]">Maintenance</h3>
+                      <p className="mt-2 text-gray-500 dark:text-gray-400 ml-4 mr-4">We provide ongoing maintenance and support.</p>
 
                               
                   </div>

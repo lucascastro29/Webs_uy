@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "@/app/ui/home.module.css";
 import Image from "next/image";
 import homepage from "@/app/ui/images/homepage.jpg"
+import { Button } from "flowbite-react";
 export default function Page() {
   //aca iria la seccion inicial que apareceria al principio de la pagina y tendria que tener animaciones y cosas bonitas
 
@@ -27,12 +28,10 @@ export default function Page() {
               world.
             </p>
             <div className="mt-20">
-            <Link
-              className="text-white bg-gradient-to-r mt-20 from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4  focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
-              href="#Contact"
-            >
-              Get Started
-            </Link>
+            
+            <Button className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700    shadow-lg shadow-blue-500/50  rounded-lg text-sm   transition ease-in-out delay-110 text-white bg-gradient-to-br from-purple-600 hover:-translate-y-1  hover:scale-110 hover:bg-indigo-500 duration-500 ...">
+            Get Started
+            </Button>
             </div>
           </div>
            
