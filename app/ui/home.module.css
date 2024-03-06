@@ -43,3 +43,24 @@
  .appear{
   opacity: 1;
  }
+
+ .divhover{
+color: transparent;
+position: relative;
+font-size: 30px;
+border-radius: 0.5rem;
+top: -160px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+ }
+ .divContainer{
+  color: white;
+ }
+ .divContainer:hover .divhover{
+  color:white;
+  transition: all ease 0.7s;
+  top: -145px;
+  
+background-color: black;
+ }

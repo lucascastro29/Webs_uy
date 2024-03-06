@@ -6,7 +6,8 @@ export default function Page() {
   //Y mejorar el h2 y otras cosas
 
   return (
-    <RevealWrapper delay={600} origin="bottom"   reset>
+    <>
+<RevealWrapper delay={600} origin="bottom"   reset>
 
     <section
     className="w-full flex flex-row-reverse content-end align-center justify-right py-48 md:py-48 lg:py-48  "
@@ -34,6 +35,8 @@ export default function Page() {
       </div>
 
   </section>
-  </RevealWrapper>
+  </RevealWrapper> 
+  <div></div></>
+    
   );
 }
