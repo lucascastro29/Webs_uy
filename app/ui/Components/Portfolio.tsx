@@ -20,6 +20,7 @@ export default function Page(){
           height: "1080px",
           background: " url('fondo_projectos.jpg') no-repeat",
           backgroundSize: "100%",
+          marginTop:"200px",
           paddingTop:"275px"
         }}>
         <div className=" px-4 md:px-6 text-center">
