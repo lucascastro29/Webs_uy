@@ -1,6 +1,7 @@
 'use client'
 import { RevealWrapper } from "next-reveal";
 import Image from "next/image";
+import fondo_projectos from "@/public/fondo_projectos.jpg"
 import Link from "next/link";
 import huerta from "@/public/huerta.png"
 import ecommerce from "@/public/e-commerce.png"
@@ -17,19 +18,17 @@ export default function Page(){
         
         id="Portfolio" 
         style={{
-          height: "1080px",
-          background: " url('fondo_projectos.jpg') no-repeat",
-          backgroundSize: "100%",
           marginTop:"200px",
-          paddingTop:"275px"
+          marginBottom:"250px"
         }}>
-        <div className=" px-4 md:px-6 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter text-white">Our Portfolio</h2>
+          <Image alt="fondo_image" className="2xl:block hidden " style={{position:"absolute",bottom:"30px",zIndex:"-1"}} height={3000} width={2000} src={fondo_projectos}/>
+        <div className=" px-4 md:px-6 text-center  2xl:pt-96 md:44 "  style={{height:"1080px"}}>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter 2xl:text-white text-[#001220]">Our Portfolio</h2>
           <p className="mt-4 text-lg md:text-xl lg:text-2xl text-gray-500 dark:text-gray-400">
             Check out some of our recent projects.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 mb-14">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:font-black lg:grid-cols-3 gap-8 mt-8 mb-14">
             <div className="group" >
               <div className={styles.divContainer}>
               <Image

@@ -1,25 +1,25 @@
 import Link from "next/link";
 import styles from "@/app/ui/home.module.css";
 import Image from "next/image";
-import homepage from "@/app/ui/images/homepage.jpg";
+import homepage from "@/public/homepage.jpeg";
 import { Button } from "flowbite-react";
 export default function Page() {
   //aca iria la seccion inicial que apareceria al principio de la pagina y tendria que tener animaciones y cosas bonitas
 
   return (
     <section
-      className="w-full flex flex-row py-48 md:py-48 lg:py-48  "
+      className="w-full flex flex-row py-48 md:py-48 lg:py-48 sm:bg-[#ffffff00]  bg-[#001220] "
       style={{
-        height: "1080px",
-        background: " url('homepage.jpeg') no-repeat",
-        backgroundSize: "100%",
+        height: "1080px"
       }}
     >
+    <Image alt="fondo_image" className="sm:block hidden  "  style={{position:"absolute",bottom:"0px",top:"0px",zIndex:"-1"}} height={3000} width={2000} src={homepage}/>
+
       <div className="px-0 md:px-20"></div>
-      <div className="px-4 md:px-6 flex flex-col align-center">
-        <div className="flex flex-col items-center  justify-top space-y-4 h-12 md:h-96 md:justify-center text-left ">
+      <div className="px-4 md:px-6 flex flex-col align-center ">
+        <div className="flex flex-col items-center  justify-top space-y-4 h-12 md:h-96 md:justify-center text-left sm:pb-52 sm:pr-52 pl-0 pt-56 lg:pt-56 pb-0">
           <div className="space-y-4 flex-col">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white ">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl   text-white ">
               Launch your Brand
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
